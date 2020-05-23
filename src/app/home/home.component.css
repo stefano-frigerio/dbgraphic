@@ -1,0 +1,22 @@
+p{
+    margin-bottom: 0;
+}
+.home{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.home_img{
+    width: 40vw;
+    margin: auto;
+}
+.home_img img{
+    max-width: 100%;
+    width: 40vw;
+    padding-bottom: 3vw;
+}
+.row{
+    margin-right: 0;
+}
+.col-6{
+    color: rgb(239,175,48);
+}

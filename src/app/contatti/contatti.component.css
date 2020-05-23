@@ -1,0 +1,74 @@
+.contatti{
+    background-color: rgba(48, 47, 54, 0.6);
+    color:white;
+    text-align: center;
+    padding-top: 4vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+p{
+    margin-bottom: 0;
+}
+label{
+    width: 39vw;
+}
+.contatti input[type=text]{
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    width: 40vw;
+    height: 3.5vw;
+    outline: none;
+}
+.contatti input[type=email]{
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    width: 40vw;
+    height: 3.5vw;
+    outline: none;
+}
+#name{
+    color: gray;
+    padding-left: 10px;
+    margin-bottom: 1.3vw;
+}
+#email{
+    color: gray;
+    padding-left: 10px;
+    margin-bottom: 3vw;
+}
+.contatti input[type=submit]{
+    border-radius: 8px;
+    font-size: 1.7vw;
+    color: white;
+    background-color: rgb(177, 178, 179);
+    width: 40vw;
+    height: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+textarea{
+    overflow: auto;
+    resize: vertical;
+    border-radius: 8px;
+    width: 40vw;
+    height: 10vw;
+    resize: none;
+    color:gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 0.8vw;
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5vw;
+    border-color: white;
+}

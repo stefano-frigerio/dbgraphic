@@ -1,0 +1,28 @@
+.contatti{
+    background-color: grey;
+    color: white;
+    line-height: 1.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    padding-left: 3vw;
+    background-color: rgba(48, 47, 54, 0.8);
+}
+.pagamenti{
+    background-color: rgba(48, 47, 54, 0.6);
+    color: white;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 2vw;
+    padding-top: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.pagamenti_img img{
+    padding-right: 2vw;
+}
+.pagamenti_img img:last-child{
+    padding-right: 0;
+}
+.pagamenti_img{
+    text-align: center;
+}

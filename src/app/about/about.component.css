@@ -1,0 +1,16 @@
+.about{
+    background-color: rgba(48, 47, 54, 0.6);
+    padding-left: 5vw;
+    padding-top: 4vw;
+    padding-right: 5vw;
+    color: white;
+}
+p{
+    margin-bottom: 0;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 5vw;
+    border-color: white;
+}

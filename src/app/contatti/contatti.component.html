@@ -1,0 +1,14 @@
+<div class="contatti">
+    <h2>Contattaci per informazioni:</h2><br>
+    <div class = "form">
+        <form method="POST" action="../../../form.php" enctype="multipart/form-data">
+            <input type="text" id="name" name="yourname" placeholder="Il tuo nome" required><br>
+            <input type="email" id="email" name="email" placeholder="E-mail" required email><br>
+            <textarea name="commento" id="textarea" placeholder="Messaggio" required></textarea><br>
+            <input type="checkbox" name="autorizzazione_dati" id="autorizzazione" required>
+            <label for="autorizzazione_dati">Autorizzo il trattamento dei miei dati personali presenti nel form ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 e del GDPR (Regolamento UE 2016/679).</label><br>
+            <input type="submit" id="invia" value="INVIA">
+        </form>
+    </div>
+    <hr>
+</div>
