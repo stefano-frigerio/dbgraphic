@@ -32,3 +32,27 @@
 a{
     color: unset;
 }
+.mobile{
+    display: none;
+}
+
+@media(max-width: 551px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .col-8{
+        float: left;
+    }
+    .col-4{
+        float: right;
+    }
+    .navbar-toggler{
+        background-color: rgb(190, 190, 190);
+    }
+    .navbar{
+        height: 100%;
+    }
+}

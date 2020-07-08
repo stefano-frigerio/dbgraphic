@@ -1,7 +1,8 @@
 <div class="contatti">
     <h2>Contattaci per informazioni:</h2><br>
     <div class = "form">
-        <form method="POST" action="../../../form.php" enctype="multipart/form-data">
+        <form method="POST" action="../../../form.php" enctype="multipart/form-data" target="POPUPW"
+        onsubmit="POPUPW = window.open('_self','POPUPW','width=600,height=400');">
             <input type="text" id="name" name="yourname" placeholder="Il tuo nome" required><br>
             <input type="email" id="email" name="email" placeholder="E-mail" required email><br>
             <textarea name="commento" id="textarea" placeholder="Messaggio" required></textarea><br>

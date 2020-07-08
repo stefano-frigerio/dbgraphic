@@ -2,8 +2,10 @@ p{
     margin-bottom: 0;
 }
 .home{
-    padding-top: 5vw;
-    padding-bottom: 5vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: -1;
 }
 .home_img{
     width: 40vw;
@@ -19,4 +21,20 @@ p{
 }
 .col-6{
     color: rgb(239,175,48);
+}
+.col-10{
+    margin: auto;
+    color: rgb(239,175,48);
+}
+.mobile{
+    display: none;
+}
+
+@media(max-width: 551px){
+    .mobile{
+        display: block;
+    }
+    .col-6{
+        display: none;
+    }
 }

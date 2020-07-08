@@ -1,5 +1,5 @@
 .contatti{
-    background-color: rgba(48, 47, 54, 0.6);
+    background-color: rgba(48, 47, 54, 0.4);
     color:white;
     text-align: center;
     padding-top: 4vw;
@@ -71,4 +71,31 @@ hr{
     margin: auto;
     margin-top: 5vw;
     border-color: white;
+}
+
+@media(max-width: 551px){
+    h2{
+        font-size: 5vw;
+    }
+    .contatti input[type=text]{
+        width: 80vw;
+        height: 8vw;
+    }
+    .contatti input[type=email]{
+        width: 80vw;
+        height: 8vw;
+    }
+    .contatti input[type=submit]{
+        width: 40vw;
+        height: 8vw;
+        font-size: 3.5vw;
+    }
+    textarea{
+        width: 80vw;
+        height: 20vw;
+    }
+    label{
+        font-size: 3.5vw;
+        width: 86vw;
+    }
 }
