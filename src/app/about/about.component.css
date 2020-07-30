@@ -14,6 +14,22 @@ hr{
     margin-top: 5vw;
     border-color: white;
 }
+.cataloghi{
+    padding-top: 5vw;
+}
+.cataloghi h2{
+    padding-bottom: 3vw;
+    text-align: center;
+}
+.catalogo{
+    width: 27.5vw;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.catalogo img{
+    width: 80%;
+}
 
 @media(max-width: 551px){
     h5{
